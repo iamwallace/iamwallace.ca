@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>I AM WALLACE</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+    </head>
+
+    <body>
+        <div class="container-md text-center">
+            <div id="title">
+                I AM WALLACE
+            </div>
+        </div>
+        <div class="container-md text-center">
+            <div id="image">
+                <img src="assets/main-image-real.jpg" alt="profile-pic" height="420" wdith="420">
+            </div>
+        </div>
+        <div class="container-md text-center">
+            <div id="blurb">
+                <p><strong>Hello there!</strong> If you are reading this right now, you were either looking for this page, or you are horribly lost but are sticking around because of the dogs. My name is Wallace and there are many things I enjoy in life, including motorcycles, basketball, breaking things, fixing said broken things, and building cool things. That was a very thing-heavy sentence but the general takeaway is that I am someone who likes to solve problems, preferably interesting problems. If you want to get to know me more, reach out to me on LinkedIn or take a look at some of my previous work. FYI those are not my puppies.</p>
+            </div>
+        </div>
+        <div class="container-md text-center">
+            <div class="row">
+                <div class="col linkedin">
+                    <a href="https://www.linkedin.com/in/wleewlee">
+                        <img id="linkedin" src="assets/icons/icon-linkedin.png" alt="linkedin-icon" height="50" width="50">
+                    </a>
+                </div>
+                <div class="col instagram">
+                    <a href="https://www.instagram.com/walllllee/">
+                        <img id="instagram" src="assets/icons/icon-instagram.png" alt="instagram-icon" height="50" width="50">
+                    </a>
+                </div>
+                <div class="col project">
+                    <input type="image" id="test-image" src="assets/icons/icon-project.png" data-toggle="modal" data-target="#project-modal" height="50" width="50">
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade show" id="project-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="project-modal-label">Project Content Coming Soon!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>If you want to see this content sooner, <s>subscribe and don't forget to click the notification bell</s> <strong>check out my LinkedIn profile.</strong></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Okay!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="easter-egg-coming-soon"></div>-->
+    </body>
+</html>

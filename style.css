@@ -1,0 +1,20 @@
+body {
+    background-color: #12A3D7;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container-md {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#title {
+    font-weight: 700;
+    font-size: 300%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
