@@ -15,9 +15,13 @@ body {
 
 img {
     border-radius: 50%;
-    max-width: 70%;
-    height: auto;
-    width: auto\9; /* ie8 */
 }
 
 
+@media only screen and (max-width: 768px) {
+    img {
+        max-width: 70%;
+        height: auto;
+        width: auto\9; /* for ie8... */
+    }
+}
