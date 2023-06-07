@@ -5,8 +5,13 @@ body {
 }
 
 .container-md {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
+}
+
+#slogan {
+    font-size: 180%;
+    font-weight: 600;
 }
 
 .box {
@@ -34,6 +39,7 @@ body {
 #title {
     font-weight: 700;
     font-size: 1000%;
+    line-height: 1;
 }
 
 #secondary-title {
