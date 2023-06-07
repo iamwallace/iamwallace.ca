@@ -1,5 +1,6 @@
 body {
-    background-color: #70c7e9;
+    background-color: #F4BB44;
+    /*94dfff*/
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -8,13 +9,60 @@ body {
     padding-bottom: 20px;
 }
 
-#title {
-    font-weight: 700;
-    font-size: 300%;
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 15px 20px 15px 20px;
 }
 
-img {
-    border-radius: 50%;
+.description {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.project-header {
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+#title {
+    font-weight: 700;
+    font-size: 1000%;
+}
+
+#secondary-title {
+    font-weight: 700;
+    font-size: 300%
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-inline-end: 40px;
+}
+
+ol li {
+    counter-increment: item;
+}
+
+ol li::before {
+    content: counter(item)".";
+    font-weight: 800;
+    padding-right: 20px;
+}
+
+p, ol {
+    font-size: 120%;
+    line-height: 1.8;
 }
 
 
