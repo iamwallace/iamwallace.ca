@@ -78,4 +78,14 @@ p, ol {
         height: auto;
         width: auto\9; /* for ie8... */
     }
+    
+    #title {
+        max-width: 70%;
+        height: auto;
+        width: auto\9; /* for ie8... */
+        font-size: 600%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
