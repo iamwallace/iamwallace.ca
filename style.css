@@ -36,10 +36,17 @@ body {
     font-weight: 600;
 }
 
-#title {
+#title-large {
     font-weight: 700;
     font-size: 1000%;
     line-height: 1;
+}
+
+#title-small {
+    font-weight: 700;
+    font-size: 1000%;
+    line-height: 1;
+    display:none;
 }
 
 #secondary-title {
@@ -72,18 +79,59 @@ p, ol {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     img {
         max-width: 70%;
         height: auto;
         width: auto\9; /* for ie8... */
     }
-    
-    #title {
+
+    #title-large {
         max-width: 70%;
         height: auto;
         width: auto\9; /* for ie8... */
-        font-size: 600%;
+        font-size: 550%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #slogan {
+        max-width: 70%;
+        height: auto;
+        width: auto\9; /* for ie8... */
+        font-size: 165%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    #title-large {
+        max-width: 70%;
+        height: auto;
+        width: auto\9; /* for ie8... */
+        font-size: 400%;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+
+    #title-small {
+        max-width: 70%;
+        height: auto;
+        width: auto\9; /* for ie8... */
+        font-size: 400%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+    }
+
+    #slogan {
+        max-width: 70%;
+        height: auto;
+        width: auto\9; /* for ie8... */
+        font-size: 130%;
         margin-left: auto;
         margin-right: auto;
     }
